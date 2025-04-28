@@ -89,11 +89,26 @@ a {
 .detalles p {
   margin-bottom: 8px;
   width: 50%;
-  text-align: center; /* centra el texto */
+  text-align: center; 
   font-size: 14px;
   color: #555;
 }
 
 .info{
   font-size: 11px;
+}
+
+@media (max-width: 480px) {
+  nav {
+    justify-content: center;
+  }
+
+  .logo {
+    margin-left: 0;
+  }
+
+  .detalles p{
+    font-size: 13px;
+    width: 90%;
+  }
 }

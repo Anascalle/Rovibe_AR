@@ -110,3 +110,23 @@ catalogo-producto:nth-child(even) {
     transform: translateY(0);
   }
 }
+
+@media (max-width: 480px) {
+  nav {
+    justify-content: center;
+  }
+
+  .logo {
+    margin-left: 0;
+  }
+
+  .titulo {
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px; 
+    font-size: 1.5em;
+    color:  #e27b57;
+  }
+  
+  
+}
